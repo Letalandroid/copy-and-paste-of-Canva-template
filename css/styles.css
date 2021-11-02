@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background-pink: #fe9594;
+    --background-images: #32354d;
+    --font-title: 'Koulen', cursive;
+    --font-parrafos: 'Charm', cursive;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    color: var(--background-images);
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: var(--background-images);
+}
+
+.section-welcome {
+    background-color: var(--background-images);
+    height: 50vw;
+}
+
+.section-welcome__img {
+    width: 100%;
+    height: 50vw;
+    opacity: .3;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: var(--font-parrafos);
+}
+
+.section-welcome__title {
+    border-radius: 10px;
+    font-size: 80px;
+    font-family: var(--font-title);
+    text-transform: uppercase;
+}
+
+.welcome-title__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20em;
+    height: 120px;
+    background-color: var(--background-pink);
+    margin-bottom: 10px;
+}
+
+.section-info {
+    background-color: var(--background-pink);
+    height: 50vw;
+}
+
+.info-img__container {
+    width: 30em;
+    margin-left: 50px;
+}
+
+.section-info__img {
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
+}
+
+.section-info__container {    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: var(--font-parrafos);
+}
+
+.section-info__container h2 {
+    font-size: 60px;
+    font-family: var(--font-title);
+}
+
+.section-services {
+    width: 100%;
+    height: 50vw;
+}
+
+.services-h2__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    font-size: 40px;
+    font-family: var(--font-title);
+    background-color: var(--background-pink);
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vw;
+}
+
+.services-content {
+    display: flex;
+    flex-direction: column;
+    color: var(--background-images);
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+}
+
+.services-content p {
+    font-size: 17px;
+    font-family: var(--font-parrafos);
+}
+
+.fas {
+    font-size: 120px;
+    margin-bottom: 30px;
+}
+
+.section-testimonios {
+    width: 100%;
+    height: 50vw;
+}
+
+.testimonios-h2 {
+    font-size: 70px;
+    font-family: var(--font-title);
+    text-align: center;
+    margin: 30px;
+}
+
+.testimonios-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--background-pink);
+    height: 40.3vw;
+}
+
+.testimonios-content__container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 280px;
+}
+
+.testimonios-content__container p {
+    font-size: 17px;
+    font-family: var(--font-parrafos);
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.testimonios-img {
+    width: 250px;
+}
+
+.section-infocontact {
+    width: 100%;
+}
+
+.section-infocontact__img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.infocontact-img__container {
+    height: 80px;
+}
+
+.infocontact-img__container-h2 {
+    font-size: 70px;
+    font-family: var(--font-title);
+    text-align: center;
+    margin-bottom: 0;    
+}
+
+.infocontact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-pink);
+    font-size: 20px;
+    text-align: center;
+    height: 31vw;
+    margin-top: 93px;
+}
+
+.infocat-dat {
+    margin-bottom: 50px;
+}
+
+.infocat-dat p {
+    color: #fff;
+    font-size: 18px;
+    font-family: var(--font-parrafos);
+}
+
+.infocat-dat:last-child {
+    margin-bottom: 0;
+}
